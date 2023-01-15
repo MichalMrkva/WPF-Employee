@@ -55,6 +55,12 @@ namespace WpfBinding
                     sw.WriteLine("Plat: " + em.Salary.ToString() + " Kč");
                     ableToSave.Content = $"Uložen člověk {i / 2 + 1}";
                 }
+                em.FName = "";
+                em.SName = "";
+                em.BDay = "";
+                em.HGrad = "";
+                em.Job = "";
+                em.Salary = 0;
             }
             else
             {
